@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="public/stylesheets/iconfont.css">
+    <link rel="stylesheet" href="public/stylesheets/Login.css">
+    <script src="../public/javascripts/utils.js"></script>
+    <script src="../public/javascripts/login.js"></script>
+</head>
+<body>
+<div id="login-logo1">
+    <h2>Welcome to LoveFlower World!</h2>
+    <div id="login-box">
+        <form class="form-1" action="/" method="post" onsubmit="return false">
+            <h1>Login</h1>
+            <div class="form">
+                <div class="item">
+                    <span class="iconfont icon-ziyuanxhdpi"></span>
+                    <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                    <input autocomplete="on" id="username" name="name" placeholder="Username" required="required"
+                           type="text" />
+                </div>
+                <div class="item">
+                    <i class="fa fa-key" aria-hidden="true" ></i>
+                    <span class="iconfont icon-mima"></span>
+                    <input autocomplete="on" id="password" name="password" placeholder="Password" required="required"
+                           type="password" />
+                    <span id="salt"><%= salt %></span>
+                </div>
+            </div>
+
+            <div>
+                <span id="passwordError"></span>
+            </div>
+            <input type="button" id="submit" class="button" onclick="login()" value="Login"/>
+            <p class="message">Not Register ? <a href="register" id="register">Register</a></p>
+        </form>
+    </div>
+</div>
+</body>
+</html>

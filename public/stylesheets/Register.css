@@ -1,0 +1,91 @@
+body{
+    background: url('../images/背景图4.jpg') center 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height:70%;
+    min-width: 1000px;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+#Register-logo1{
+    width: 50%;
+    height: 5%;
+    margin: 0 auto;
+    margin-top: 3%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0);
+    padding: 20px 50px;
+    border-radius: 30px;
+}
+#Register-logo1 h2{
+    font: 700 30px "Comic Sans MS";
+    color: white;
+    text-shadow: 0 0 20px #fdec84,
+    10px -10px 30px #ffae35,
+    20px -20px 40px #ec760c,
+    -20px -60px 50px #cd4607,
+    0px -80px 60px #973717,
+    10px -40px 70px #451b0e;
+}
+#Register-box{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.47);
+    padding: 20px 50px;
+    border-radius: 30px;
+}
+
+#Register-box h1{
+    color: #fff;
+}
+
+#Register-box .form .item{
+    margin-top: 15px;
+    color: #fff;
+}
+
+#Register-box .form .item i{
+    font-size: 18px;
+    color: #fff;
+}
+
+#Register-box .form .item input{
+    width: 180px;
+    font-size: 18px;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    padding: 5px 10px;
+    background: #ffffff00;
+    color: #fff;
+}
+#Register-box button{
+    margin-top: 20px;
+    width: 180px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    border: 0;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+}
+#Register-box .message{
+    margin: 15px 0 0;
+    color: #fff;
+    font-size: 15px;
+}
+#Register-box .message a{
+    color: orange;
+}
+
+#passwordError {
+    display: none;
+    color: rgb(217, 33, 17);
+}
+

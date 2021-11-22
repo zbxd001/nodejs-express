@@ -1,0 +1,599 @@
+body{
+    background: url('../images/背景图7.jpg') center 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height:70%;
+    min-width: 1000px;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+.topbox h1{
+    font: 700 25px "Comic Sans MS";
+    color: white;
+    text-shadow: 0 0 20px #fdec84,
+    10px -10px 30px #ffae35,
+    20px -20px 40px #ec760c,
+    -20px -60px 50px #cd4607,
+    0px -80px 60px #973717,
+    10px -40px 70px #451b0e;
+}
+.ribbon {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 550px;
+    top: 0px;
+    margin: auto;
+}
+
+.ribbon:after,
+.ribbon:before {
+    margin-top: 0.5em;
+    content: "";
+    display: flex;
+    border: 1.5em solid rgba(33, 47, 214, 0.38);
+}
+
+.ribbon:after {
+    border-right-color: transparent;
+}
+
+.ribbon:before {
+    border-left-color: transparent;
+}
+
+.ribbon a:link,
+.ribbon a:visited {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 20px #fdec84,
+    10px -10px 30px #ffae35,
+    20px -20px 40px #ec760c;
+    text-decoration: none;
+    height: 3.5em;
+    overflow: hidden;
+}
+
+.ribbon span {
+    background: rgba(33, 47, 214, 0.38);
+    display: inline-block;
+    line-height: 3em;
+    padding: 0 1.5em;
+    margin-top: 0.5em;
+    position: relative;
+    -webkit-transition: background-color 0.2s, margin-top 0.2s;
+    /* Saf3.2+, Chrome */
+    -moz-transition: background-color 0.2s, margin-top 0.2s;
+    /* FF4+ */
+    -ms-transition: background-color 0.2s, margin-top 0.2s;
+    /* IE10 */
+    -o-transition: background-color 0.2s, margin-top 0.2s;
+    /* Opera 10.5+ */
+    transition: background-color 0.2s, margin-top 0.2s;
+}
+
+.ribbon a:hover span {
+    background: #FFD204;
+    margin-top: 0;
+}
+
+.ribbon span:before {
+    content: "";
+    position: absolute;
+    top: 3em;
+    left: 0;
+    border-right: 0.5em solid #9B8651;
+    border-bottom: 0.5em solid #fff;
+}
+
+.ribbon span:after {
+    content: "";
+    position: absolute;
+    top: 3em;
+    right: 0;
+    border-left: 0.5em solid #9B8651;
+    border-bottom: 0.5em solid #fff;
+}
+.Logout{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    border: 0;
+    background-color:  rgba(255, 210, 4, 0.62);
+}
+.meigui{
+    position: absolute;
+    left: 100px;
+    top: 80px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 210px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+img{
+    width: 90%;
+}
+.button1{
+    margin-top: 0px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    border: 0;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+}
+.yueji{
+    position: absolute;
+    left: 430px;
+    top: 80px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 180px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.shuixian{
+    position: absolute;
+    left: 760px;
+    top: 80px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 210px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.xunyicao{
+    position: absolute;
+    left: 1090px;
+    top: 80px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 210px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.mudan{
+    position: absolute;
+    left: 100px;
+    top: 320px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 230px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.yinghua{
+    position: absolute;
+    left: 430px;
+    top: 300px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 230px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.meihua{
+    position: absolute;
+    left: 760px;
+    top: 320px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 215px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.taohua{
+    position: absolute;
+    left: 1090px;
+    top: 320px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 215px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.haitang{
+    position: absolute;
+    left: 100px;
+    top: 580px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 215px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.yulan{
+    position: absolute;
+    left: 430px;
+    top: 560px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 215px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.zijing{
+    position: absolute;
+    left: 760px;
+    top: 565px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 215px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.dingxiang{
+    position: absolute;
+    left: 1090px;
+    top: 565px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 215px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.guihua{
+    position: absolute;
+    left: 100px;
+    top: 825px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 230px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.moli{
+    position: absolute;
+    left: 430px;
+    top: 805px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 220px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.zhizi{
+    position: absolute;
+    left: 760px;
+    top: 810px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 220px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.yujinxiang{
+    position: absolute;
+    left: 1090px;
+    top: 810px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 190px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.dujuan{
+    position: absolute;
+    left: 100px;
+    top: 1080px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 210px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.yingchunhua{
+    position: absolute;
+    left: 430px;
+    top: 1060px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 220px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.ziluolan{
+    position: absolute;
+    left: 760px;
+    top: 1065px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 220px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.fengxinzi{
+    position: absolute;
+    left: 1090px;
+    top: 1040px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 190px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.hehua{
+    position: absolute;
+    left: 100px;
+    top: 1320px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 220px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.shuilian{
+    position: absolute;
+    left: 430px;
+    top: 1310px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 220px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.furong{
+    position: absolute;
+    left: 760px;
+    top: 1320px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 220px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.juhua{
+    position: absolute;
+    left: 1090px;
+    top: 1260px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 220px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.kangnaixin{
+    position: absolute;
+    left: 100px;
+    top: 1570px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 220px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.fengxianhua{
+    position: absolute;
+    left: 430px;
+    top: 1560px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 220px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.sansejin{
+    position: absolute;
+    left: 760px;
+    top: 1570px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 220px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.jiguanhua{
+    position: absolute;
+    left: 1090px;
+    top: 1510px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 220px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.kongquecao{
+    position: absolute;
+    left: 100px;
+    top: 1820px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 240px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.mantianxing{
+    position: absolute;
+    left: 430px;
+    top: 1810px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 220px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.hanxiucao{
+    position: absolute;
+    left: 760px;
+    top: 1820px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 220px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.xianrenzhang{
+    position: absolute;
+    left: 1090px;
+    top: 1760px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 220px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.tanhua{
+    position: absolute;
+    left: 100px;
+    top: 2090px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 240px;
+    border-color: rgba(24, 195, 20, 0.67);
+}
+.wenzhu{
+    position: absolute;
+    left: 430px;
+    top: 2050px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #990;
+    background-color: rgba(134, 134, 134, 0.49);
+    box-shadow: 1px 1px 5px #333333;
+    width: 300px;
+    height: 240px;
+    border-color: rgba(24, 195, 20, 0.67);
+}

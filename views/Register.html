@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <link rel="stylesheet" href="public/stylesheets/Register.css">
+    <link rel="stylesheet" href="public/stylesheets/iconfont.css">
+    <script src="../public/javascripts/utils.js"></script>
+    <script src="../public/javascripts/register.js"></script>
+</head>
+<body>
+<div id="Register-logo1">
+    <h2>Welcome to LoveFlower World!</h2>
+    <div id="Register-box">
+        <form action="/register" onsubmit="return false" method="post">
+            <h1>Register</h1>
+            <div class="form">
+                <div class="item">
+                    <i class="fa fa-key" aria-hidden="true" ></i>
+                    <span class="iconfont icon-youxiang"></span>
+                    <input type="email" placeholder="Email" id="email" required />
+                </div>
+                <div class="item">
+                    <i class="fa fa-key" aria-hidden="true" ></i>
+                    <span class="iconfont icon-dianhuahaoma"></span>
+                    <input type="text" placeholder="PhoneNumber" id="phone"required />
+                </div>
+                <div class="item">
+                    <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                    <span class="iconfont icon-ziyuanxhdpi"></span>
+                    <input autocomplete="on" id="username" name="name" placeholder="Username" required="required"
+                           type="text" />
+                </div>
+                <div class="item">
+                    <i class="fa fa-key" aria-hidden="true" ></i>
+                    <span class="iconfont icon-mima"></span>
+                    <input autocomplete="on" id="password" name="password" placeholder="password" required="required"
+                           type="password" />
+                </div>
+                <div class="item">
+                    <i class="fa fa-key" aria-hidden="true" ></i>
+                    <span class="iconfont icon-mima"></span>
+                    <input utocomplete="on" id="repeat-password" name="password" placeholder="Repeat Password" required="required"
+                           type="password"/>
+                </div>
+
+                <div>
+                    <span id="passwordError"></span>
+                </div>
+            </div>
+            <button type="submit" onclick="sign_up()" id="register">Register</button>
+            <p class="message">Already Register ? <a href="/" id="login1">Login</a></p>
+        </form>
+    </div>
+</div>
+</body>
+</html>
